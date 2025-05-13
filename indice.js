@@ -1,10 +1,14 @@
-let numeros = [5, 3, 9, 1, 7, 2, 6];
+function encontrarIndices (numeros){
 
-let maior = Math.max(...numeros);
-let indiceMaior = numeros.indexOf(maior);
+const maior = Math.max(...numeros);
+const indiceMaior = numeros.indexOf(maior);
 
-let menor = Math.min(...numeros);
-let indiceMenor = numeros.indexOf(menor);
+const menor = Math.min(...numeros);
+const indiceMenor = numeros.indexOf(menor);
 
-console.log("Índice do maior número:", indiceMaior);
-console.log("Índice do menor número:", indiceMenor);
+return {
+    indiceMaior,
+    indiceMenor
+};
+}
+module.exports = {encontrarIndices};

@@ -1,4 +1,5 @@
-const numeros = Array.from({ length: 1000 }, (_ , i) => i + 1);
+function somarMultiplos(limite){
+const numeros = Array.from({ length: limite }, (_ , i) => i + 1);
 let soma = 0;
 
 numeros.forEach(num => {
@@ -7,4 +8,7 @@ numeros.forEach(num => {
   }
 });
 
-console.log(soma);
+return soma;
+}
+
+module.exports = {somarMultiplos}

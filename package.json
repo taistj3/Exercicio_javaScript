@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "name": "javascript_m20",
+  "version": "1.0.0",
+  "description": "Exercícios matemáticos para treinar JavaScript.",
+  "main": "indice.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
